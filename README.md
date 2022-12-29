@@ -1,4 +1,4 @@
-# Won't be finsihed :(
+# Won't be developed further :(
 Very laggy
 
 ![Alt text](resources/screenshots/ss1.png?raw=true "Screenshot 1")
