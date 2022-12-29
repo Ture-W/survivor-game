@@ -4,13 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Survivor</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="module" src="js/game/map.js"></script>
+  <script type="module" src="js/game/food.js"></script>
+  <script type="module" src="js/game/controller.js"></script>
+  <script type="module" src="js/game/weapon.js"></script>
+  <script type="module" src="js/game/player.js"></script>
+  <script type="module" src="js/game/enemy.js"></script>
+  <script type="module" src="js/game/manager.js"></script>
+  <script type="module" src="js/game/world.js"></script>
+  <script type="module" src="js/renderer.js"></script>
 </head>
 <body>
   <div id="game-container">
-    <canvas></canvas>
+    <canvas id="canvas"></canvas>
   </div>
 
-  <script src="/js/index.js"></script>
+  <script type="module" src="js/index.js"></script>
 </body>
 </html>
