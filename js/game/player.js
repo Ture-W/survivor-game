@@ -1,5 +1,5 @@
-import { Controller } from "/js/game/controller.js";
-import * as weapons from '/js/game/weapon.js';
+import { Controller } from "/survivor-game/js/game/controller.js";
+import * as weapons from '/survivor-game/js/game/weapon.js';
 
 export class Player {
   constructor(map) {
