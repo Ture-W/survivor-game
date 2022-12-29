@@ -1,7 +1,7 @@
-import { Player } from "js/game/player.js";
-import { Map } from "js/game/map.js";
-import { Apple } from 'js/game/food.js';
-import { Manager } from 'js/game/manager.js';
+import { Player } from "/js/game/player.js";
+import { Map } from "/js/game/map.js";
+import { Apple } from '/js/game/food.js';
+import { Manager } from '/js/game/manager.js';
 
 
 export class World {
