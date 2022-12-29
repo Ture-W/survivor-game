@@ -95,7 +95,7 @@ export class Bat extends Enemy {
       this.sprite.width = this.sprite.naturalWidth * this.scale;
       this.sprite.height = this.sprite.naturalHeight * this.scale;
     }.bind(this);
-    this.sprite.src = "resources/sprites/bat.png";
+    this.sprite.src = "/survivor-game/resources/sprites/bat.png";
 
     this.addWeapon(new weapons.Melee(7));
   }
@@ -150,7 +150,7 @@ export class Witch extends Enemy {
       this.sprite.width = this.sprite.naturalWidth * this.scale;
       this.sprite.height = this.sprite.naturalHeight * this.scale;
     }.bind(this);
-    this.sprite.src = "resources/sprites/witch.png";
+    this.sprite.src = "/survivor-game/resources/sprites/witch.png";
 
     this.addWeapon(new weapons.Melee(12));
   }
@@ -201,7 +201,7 @@ export class BirdMan extends Enemy {
       this.sprite.width = this.sprite.naturalWidth * this.scale;
       this.sprite.height = this.sprite.naturalHeight * this.scale;
     }.bind(this);
-    this.sprite.src = "resources/sprites/bird-man.png";
+    this.sprite.src = "/survivor-game/resources/sprites/bird-man.png";
 
     this.addWeapon(new weapons.Melee(17));
   }

@@ -19,7 +19,7 @@ export class Player {
       this.sprite.width = this.sprite.naturalWidth * this.scale;
       this.sprite.height = this.sprite.naturalHeight * this.scale;
     }.bind(this);
-    this.sprite.src = "resources/sprites/avatar.png";
+    this.sprite.src = "/survivor-game/resources/sprites/avatar.png";
 
     map.addObstacle(this);
     this.addWeapon(new weapons.SawBlades());

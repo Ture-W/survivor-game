@@ -30,6 +30,6 @@ export class Apple extends Food {
       this.sprite.width = this.sprite.naturalWidth * this.scale;
       this.sprite.height = this.sprite.naturalHeight * this.scale;
     }.bind(this);
-    this.sprite.src = "resources/sprites/apple.png";
+    this.sprite.src = "/survivor-game/resources/sprites/apple.png";
   }
 }

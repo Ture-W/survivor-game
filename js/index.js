@@ -7,7 +7,7 @@ const ctx = canvas.getContext('2d');
 ctx.canvas.width = canvas.offsetWidth;
 ctx.canvas.height = canvas.offsetHeight;
 
-const map_path = "/resources/map.png";
+const map_path = "/survivor-game/resources/map.png";
 const world = new World(map_path);
 const renderer = new Renderer(world, ctx);
 
@@ -17,7 +17,7 @@ function sleep(ms) {
 
 let settings = null;
 async function loadSettings() {
-  const response = await fetch('/settings.json');
+  const response = await fetch('/survivor-game/settings.json');
   const json = await response.json();
   settings = json;
 }

@@ -13,7 +13,7 @@ export class Renderer {
       this.exp_sprite.width = this.exp_sprite.naturalWidth * this.scale;
       this.exp_sprite.height = this.exp_sprite.naturalHeight * this.scale;
     }.bind(this);
-    this.exp_sprite.src = "resources/sprites/exp-orb.png";
+    this.exp_sprite.src = "/survivor-game/resources/sprites/exp-orb.png";
 
     this.render_obstacles = false;
   }

@@ -78,14 +78,14 @@ export class Map {
   }
 
   async loadMapTextures() {
-    const response = await fetch('resources/textureMap.json');
+    const response = await fetch('/survivor-game/resources/textureMap.json');
     this.path_map = await response.json();
     for (let y = 0; y < this.pixels.length; y++) {
       for (let x = 0; x < this.pixels[0].length; x++) {
 
         const key = `${this.pixels[y][x][0]},${this.pixels[y][x][1]},${this.pixels[y][x][2]}`;
         let path;
-        if (key in this.path_map) { path = this.path_map[key]; } else { path = "resources/textures/error-tile.png"; }
+        if (key in this.path_map) { path = this.path_map[key]; } else { path = "/survivor-game/resources/textures/error-tile.png"; }
         
         if (!(path in this.image_map)) {
           this.image_map[path] = new Image();
@@ -116,7 +116,7 @@ export class Map {
 
         const key = `${this.pixels[y][x][0]},${this.pixels[y][x][1]},${this.pixels[y][x][2]}`
         let path;
-        if (key in this.path_map) { path = this.path_map[key]; } else { path = "resources/textures/error-tile.png"; }
+        if (key in this.path_map) { path = this.path_map[key]; } else { path = "/survivor-game/resources/textures/error-tile.png"; }
         
         ctx.drawImage(this.image_map[path], posX-(this.pixels[0].length*this.tile_size/2), posY-(this.pixels.length*this.tile_size/2), this.tile_size, this.tile_size);
       }
