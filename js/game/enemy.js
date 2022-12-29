@@ -1,4 +1,4 @@
-import * as weapons from '/js/game/weapon.js';
+import * as weapons from '/survivor-game/js/game/weapon.js';
 
 class Enemy {
   constructor() {

@@ -1,4 +1,4 @@
-import * as enemy from '/js/game/enemy.js';
+import * as enemy from '/survivor-game/js/game/enemy.js';
 
 export class Manager {
 

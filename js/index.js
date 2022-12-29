@@ -1,6 +1,5 @@
-import { Renderer } from '/js/renderer.js';
-import { World } from '/js/game/world.js';
-import { Bat, Witch, BirdMan } from '/js/game/enemy.js';
+import { Renderer } from '/survivor-game/js/renderer.js';
+import { World } from '/survivor-game/js/game/world.js';
 
 
 const canvas = document.getElementById('canvas');

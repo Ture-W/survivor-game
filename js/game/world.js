@@ -1,7 +1,7 @@
-import { Player } from "/js/game/player.js";
-import { Map } from "/js/game/map.js";
-import { Apple } from '/js/game/food.js';
-import { Manager } from '/js/game/manager.js';
+import { Player } from "/survivor-game/js/game/player.js";
+import { Map } from "/survivor-game/js/game/map.js";
+import { Apple } from '/survivor-game/js/game/food.js';
+import { Manager } from '/survivor-game/js/game/manager.js';
 
 
 export class World {

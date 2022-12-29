@@ -1,4 +1,3 @@
-import { World } from "/js/game/world.js";
 
 
 export class Renderer {
