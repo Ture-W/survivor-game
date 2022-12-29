@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "whatwg-fetch": "^3.6.2",
-    "homepage": "."
+    "homepage": "https://ture-w.github.io/survivor-game"
   }
 }
